@@ -1,0 +1,49 @@
+h1 {
+  font-size: 95px;
+  margin-top: 150px;
+  text-align: center;
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  opacity: 0.75;
+  text-align: center;
+}
+div.container {
+  text-align: center;
+}
+.photo-me {
+  padding: 100px 120px 60px 120px;
+}
+p {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.email {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.email-link {
+  color: black;
+  font-size: 35px;
+  opacity: 0.75;
+  text-decoration: none;
+}
+.contact-icons {
+  padding: 20px;
+}
+.ig-icon {
+  color: black;
+  font-size: 45px;
+  opacity: 0.75;
+}
+.linkedin-icon {
+  color: black;
+  font-size: 45px;
+  opacity: 0.75;
+}
+.github-icon {
+  color: black;
+  font-size: 45px;
+  opacity: 0.75;
+}

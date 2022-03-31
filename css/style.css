@@ -1,23 +1,48 @@
+.navagation-links {
+  font-family: font-family: "Source Sans Pro", sans-serif;
+}
+
 h1 {
-  font-size: 95px;
-  margin-top: 150px;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: 100px;
+  padding-top: 140px;
+  opacity: 0.9;
   text-align: center;
 }
 h2 {
-  font-size: 50px;
-  margin-bottom: 30px;
-  opacity: 0.75;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  opacity: 0.7;
   text-align: center;
 }
 div.container {
   text-align: center;
 }
+.pb-5 {
+  padding-bottom: $spacer !important;
+}
 .photo-me {
-  padding: 100px 120px 60px 120px;
+  padding: 100px 120px 50px 120px;
 }
 p {
-  padding-left: 120px;
-  padding-right: 120px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  opacity: 0.8;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+p.indent {
+  text-indent: 30px;
+}
+.business {
+  color: black;
+  font-weight: bolder;
 }
 .email {
   margin-top: 50px;
@@ -25,6 +50,7 @@ p {
 }
 .email-link {
   color: black;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 35px;
   opacity: 0.75;
   text-decoration: none;
@@ -46,4 +72,15 @@ p {
   color: black;
   font-size: 45px;
   opacity: 0.75;
+}
+
+@media (max-width: 576px) {
+  h1 {  
+  font-size: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+  h2 {
+  font-size: 30px;
+  }
 }

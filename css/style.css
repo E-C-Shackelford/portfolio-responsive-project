@@ -1,5 +1,6 @@
 :root {
   --primary-color: #c3d0f7;
+  --secondary-color: #e1eaef;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Source Sans Pro", sans-serif;
 }
@@ -7,6 +8,7 @@
 .navagation-links {
   font-family: var(--default-font-family);
 }
+
 .homepage-header {
   background: var(--primary-color);
   margin: 250px 0px 20px 0px;
@@ -86,4 +88,7 @@ p.indent {
   color: black;
   font-size: 45px;
   opacity: 0.75;
+}
+.art-padding {
+  padding: 80px 20px;
 }

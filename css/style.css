@@ -1,37 +1,41 @@
-.navagation-links {
-  font-family: font-family: "Source Sans Pro", sans-serif;
+:root {
+  --primary-color: #c3cbe5;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Source Sans Pro", sans-serif;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 100px;
-  font-weight: 400;
-  margin-top: 100px;
-  padding-top: 140px;
-  opacity: 0.9;
+.navagation-links {
+  font-family: var(--default-font-family);
+}
+.homepage-header {
+  margin: 200px 80px 180px 80px;
+  padding: 50px 30px 10px 30px;
   text-align: center;
 }
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 100px;
+  font-weight: 400;
+  padding-top: 30px;
+  opacity: 0.9;
+}
 h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 60px;
+  font-family: var(--default-font-family);
+  font-size: 55px;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-top: 10px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
   opacity: 0.7;
-  text-align: center;
 }
 div.container {
   text-align: center;
-}
-.pb-5 {
-  padding-bottom: $spacer !important;
 }
 .photo-me {
   padding: 100px 120px 50px 120px;
 }
 p {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 22px;
   opacity: 0.8;
   padding-left: 240px;
@@ -44,13 +48,22 @@ p.indent {
   color: black;
   font-weight: bolder;
 }
+.contact-header {
+  background: var(--primary-color);
+  margin: 200px 0px 20px 0px;
+  padding: 50px 40px;
+  text-align: center;
+}
+.contact {
+  padding: 20px 0;
+}
 .email {
   margin-top: 50px;
   margin-bottom: 20px;
 }
 .email-link {
   color: black;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 35px;
   opacity: 0.75;
   text-decoration: none;
@@ -72,15 +85,4 @@ p.indent {
   color: black;
   font-size: 45px;
   opacity: 0.75;
-}
-
-@media (max-width: 576px) {
-  h1 {  
-  font-size: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
-  }
-  h2 {
-  font-size: 30px;
-  }
 }

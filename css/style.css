@@ -149,14 +149,17 @@ p.indent {
 .frontend-project-link:hover {
   color: var(--branding-color);
 }
+.footer {
+  margin-top: 235px;
+  text-align: center;
+}
 .footer-style {
   color: black;
   font-family: var(--default-font-family);
   font-size: 20px;
   font-weight: bolder;
   opacity: 0.7;
-  margin-top: 235px;
-  text-align: center;
+  text-decoration: none;
   transition: all 200ms ease;
 }
 .footer-style:hover {

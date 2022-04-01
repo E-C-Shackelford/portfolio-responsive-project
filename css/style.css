@@ -112,3 +112,20 @@ p.indent {
 #houseplants-side-space {
   padding: 20px 80px 20px 60px;
 }
+.frontend-project-link {
+  background: linear-gradient(
+    to bottom right,
+    #948fde,
+    #c7cefc,
+    #e0e3fe,
+    #f0effa,
+    #f9f9fe
+  );
+  border: solid 1px #c7cefc;
+  border-radius: 4px;
+  color: black;
+  font-family: var(--default-font-family);
+  opacity: 0.8;
+  padding: 30px;
+  text-decoration: none;
+}

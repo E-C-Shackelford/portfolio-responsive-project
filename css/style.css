@@ -1,6 +1,4 @@
 :root {
-  --primary-color: #c3d0f7;
-  --secondary-color: #e1eaef;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Source Sans Pro", sans-serif;
 }
@@ -10,7 +8,14 @@
 }
 
 .homepage-header {
-  background: var(--primary-color);
+  background: linear-gradient(
+    to bottom right,
+    #948fde,
+    #c7cefc,
+    #e0e3fe,
+    #f0effa,
+    #f9f9fe
+  );
   margin: 250px 0px 20px 0px;
   padding: 60px 20px;
   text-align: center;
@@ -52,7 +57,13 @@ p.indent {
   font-weight: bolder;
 }
 .contact-header {
-  background: var(--primary-color);
+  background: linear-gradient(
+    to bottom right,
+    #948fde,
+    #c7cefc,
+    #e0e3fe,
+    #f9f9fe
+  );
   margin: 200px 0px 20px 0px;
   padding: 50px 20px;
   text-align: center;
@@ -91,4 +102,13 @@ p.indent {
 }
 .art-padding {
   padding: 80px 20px;
+}
+.front-end-padding {
+  padding-top: 140px;
+}
+#weather-side-space {
+  padding: 20px 60px;
+}
+#houseplants-side-space {
+  padding: 20px 80px 20px 60px;
 }

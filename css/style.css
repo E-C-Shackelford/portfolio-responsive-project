@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #c3cbe5;
+  --primary-color: #c3d0f7;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Source Sans Pro", sans-serif;
 }
@@ -8,8 +8,9 @@
   font-family: var(--default-font-family);
 }
 .homepage-header {
-  margin: 200px 80px 180px 80px;
-  padding: 50px 30px 10px 30px;
+  background: var(--primary-color);
+  margin: 250px 0px 20px 0px;
+  padding: 60px 20px;
   text-align: center;
 }
 h1 {
@@ -38,8 +39,8 @@ p {
   font-family: var(--default-font-family);
   font-size: 22px;
   opacity: 0.8;
-  padding-left: 240px;
-  padding-right: 240px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 p.indent {
   text-indent: 30px;
@@ -51,7 +52,7 @@ p.indent {
 .contact-header {
   background: var(--primary-color);
   margin: 200px 0px 20px 0px;
-  padding: 50px 40px;
+  padding: 50px 20px;
   text-align: center;
 }
 .contact {

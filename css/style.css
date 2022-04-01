@@ -1,4 +1,13 @@
 :root {
+  --branding-background: linear-gradient(
+    to bottom right,
+    #948fde,
+    #c7cefc,
+    #e0e3fe,
+    #f0effa,
+    #f9f9fe
+  );
+  --branding-color: #948fde;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Source Sans Pro", sans-serif;
 }
@@ -8,14 +17,7 @@
 }
 
 .homepage-header {
-  background: linear-gradient(
-    to bottom right,
-    #948fde,
-    #c7cefc,
-    #e0e3fe,
-    #f0effa,
-    #f9f9fe
-  );
+  background: var(--branding-background);
   margin: 250px 0px 20px 0px;
   padding: 60px 20px;
   text-align: center;
@@ -58,13 +60,7 @@ p.indent {
   font-weight: bolder;
 }
 .contact-header {
-  background: linear-gradient(
-    to bottom right,
-    #948fde,
-    #c7cefc,
-    #e0e3fe,
-    #f9f9fe
-  );
+  background: var(--branding-background);
   margin: 200px 0px 20px 0px;
   padding: 50px 20px;
   text-align: center;
@@ -85,14 +81,14 @@ p.indent {
   transition: all 200ms ease;
 }
 .email-link:hover {
-  color: #948fde;
+  color: var(--branding-color);
 }
 .second-email-link {
   padding: 20px;
   transition: all 200ms ease;
 }
 .second-email-link:hover {
-  color: #948fde;
+  color: var(--branding-color);
 }
 .contact-icons {
   padding: 20px;
@@ -104,7 +100,7 @@ p.indent {
   transition: all 200ms ease;
 }
 .ig-icon:hover {
-  color: #948fde;
+  color: var(--branding-color);
 }
 .linkedin-icon {
   color: black;
@@ -113,7 +109,7 @@ p.indent {
   transition: all 200ms ease;
 }
 .linkedin-icon:hover {
-  color: #948fde;
+  color: var(--branding-color);
 }
 .github-icon {
   color: black;
@@ -122,7 +118,7 @@ p.indent {
   transition: all 200ms ease;
 }
 .github-icon:hover {
-  color: #948fde;
+  color: var(--branding-color);
 }
 .art-padding {
   padding: 80px 20px;
@@ -137,14 +133,7 @@ p.indent {
   padding: 20px 80px 20px 60px;
 }
 .frontend-project-link {
-  background: linear-gradient(
-    to bottom right,
-    #948fde,
-    #c7cefc,
-    #e0e3fe,
-    #f0effa,
-    #f9f9fe
-  );
+  background: var(--branding-background);
   border: solid 1px #c7cefc;
   border-radius: 6px;
   box-shadow: rgba(112, 119, 180, 0.9) 0px 10px 18px 0;
@@ -158,5 +147,18 @@ p.indent {
   transition: all 200ms ease;
 }
 .frontend-project-link:hover {
-  color: #948fde;
+  color: var(--branding-color);
+}
+.footer-style {
+  color: black;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  font-weight: bolder;
+  opacity: 0.7;
+  margin-top: 235px;
+  text-align: center;
+  transition: all 200ms ease;
+}
+.footer-style:hover {
+  color: var(--branding-color);
 }

@@ -45,6 +45,7 @@ div.container {
 p {
   font-family: var(--default-font-family);
   font-size: 22px;
+  line-height: 2;
   opacity: 0.8;
   padding-left: 160px;
   padding-right: 160px;
@@ -81,6 +82,17 @@ p.indent {
   font-size: 35px;
   opacity: 0.75;
   text-decoration: none;
+  transition: all 200ms ease;
+}
+.email-link:hover {
+  color: #948fde;
+}
+.second-email-link {
+  padding: 20px;
+  transition: all 200ms ease;
+}
+.second-email-link:hover {
+  color: #948fde;
 }
 .contact-icons {
   padding: 20px;
@@ -89,16 +101,28 @@ p.indent {
   color: black;
   font-size: 45px;
   opacity: 0.75;
+  transition: all 200ms ease;
+}
+.ig-icon:hover {
+  color: #948fde;
 }
 .linkedin-icon {
   color: black;
   font-size: 45px;
   opacity: 0.75;
+  transition: all 200ms ease;
+}
+.linkedin-icon:hover {
+  color: #948fde;
 }
 .github-icon {
   color: black;
   font-size: 45px;
   opacity: 0.75;
+  transition: all 200ms ease;
+}
+.github-icon:hover {
+  color: #948fde;
 }
 .art-padding {
   padding: 80px 20px;

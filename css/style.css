@@ -124,13 +124,16 @@ p.indent {
   padding: 80px 20px;
 }
 .front-end-padding {
-  padding-top: 140px;
+  padding: 140px 200px 160px 200px;
 }
 #weather-side-space {
-  padding: 20px 60px;
+  padding: 20px 60px 100px 60px;
 }
 #houseplants-side-space {
-  padding: 20px 80px 20px 60px;
+  padding: 20px 80px 20px 80px;
+}
+.houseplants-spacing {
+  padding-top: 30px;
 }
 .frontend-project-link {
   background: var(--branding-background);
@@ -164,4 +167,74 @@ p.indent {
 }
 .footer-style:hover {
   color: var(--branding-color);
+}
+@media (max-width: 280px) {
+  .frontend-project-link {
+    font-size: 8px;
+    padding: 10px;
+  }
+}
+@media (max-width: 559px) {
+  .frontend-project-link {
+    font-size: 13px;
+    padding: 15px;
+  }
+  .front-end-padding {
+    padding: 120px 0;
+  }
+}
+@media (min-width: 560px) {
+  .frontend-project-link {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .front-end-padding {
+    padding: 120px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer-style {
+    font-size: 16px;
+  }
+  .photo-me {
+    padding: 60px 50px 0px 50px;
+  }
+  p {
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .email-link {
+    font-size: 18px;
+  }
+  .second-email-link {
+    font-size: 18px;
+  }
+  .ig-icon {
+    font-size: 26px;
+  }
+  .linkedin-icon {
+    font-size: 26px;
+  }
+  .github-icon {
+    font-size: 26px;
+  }
+}
+@media (min-width: 992px) {
+  .frontend-project-link {
+    font-size: 20px;
+    padding: 30px;
+  }
 }

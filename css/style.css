@@ -203,6 +203,8 @@ p.indent {
     text-align: center;
   }
   .footer {
+    margin-top: 400px;
+    margin-bottom: 0px;
     text-align: center;
   }
   .footer-style {

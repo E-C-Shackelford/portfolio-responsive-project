@@ -169,10 +169,16 @@ p.indent {
 .footer-style:hover {
   color: var(--branding-color);
 }
-@media (max-width: 280px) {
-  .frontend-project-link {
+@media (max-width: 300px) {
+  a.frontend-project-link {
     font-size: 8px;
     padding: 10px;
+  }
+  .footer-style {
+    font-size: 10px;
+  }
+  .email-link {
+    font-size: 15px;
   }
 }
 @media (max-width: 559px) {

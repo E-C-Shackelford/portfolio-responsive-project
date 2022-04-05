@@ -169,7 +169,7 @@ p.indent {
 .footer-style:hover {
   color: var(--branding-color);
 }
-@media (max-width: 300px) {
+@media (max-width: 345px) {
   a.frontend-project-link {
     font-size: 8px;
     padding: 10px;

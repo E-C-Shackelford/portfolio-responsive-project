@@ -133,21 +133,21 @@
       }
 
       .link {
-          color: #3f84ac;
-          text-decoration: none;
+        color: #3f84ac;
+        text-decoration: none;
       }
       .link:hover {
-          text-decoration: underline;
+        text-decoration: underline;
       }
 
       .more-info {
         font-size: 17px;
         text-align: center;
       }
-
     </style>
   </head>
-  <body class="content-container"
+  <body>
+    <div class="content-container">
       <div class="header">
         <h1 class="header-box">
           <strong>Houseplants</strong>
@@ -156,8 +156,9 @@
         <h2>Home is Where the Plants Are</h2>
       </div>
       <hr />
-        <img src = https://s3.amazonaws.com/shecodesio-production/uploads/files/000/025/517/original/pexels-photo-10467814.jpeg?1642974803
-        alt = "Houseplant Scene" width = "300" height = "400" />
+      <img src =
+      https://s3.amazonaws.com/shecodesio-production/uploads/files/000/025/517/original/pexels-photo-10467814.jpeg?1642974803
+      alt = "Houseplant Scene" width = "300" height = "400" />
       <hr />
       <div class="info-box">
         <p>
@@ -196,20 +197,26 @@
         </p>
         <ul class="additional-resources">
           <li>
-            <a class="link" target="_blank"
-              href="https://www.apartmenttherapy.com/8-houseplants-that-can-survive-urban-apartments-243071" 
+            <a
+              class="link"
+              target="_blank"
+              href="https://www.apartmenttherapy.com/8-houseplants-that-can-survive-urban-apartments-243071"
               >8 Houseplants that Can Survive Urban Apartments, Low Light and
               Under-Watering</a
-            > 
+            >
           </li>
           <li>
-            <a class="link" target="_blank"
+            <a
+              class="link"
+              target="_blank"
               href="https://www.mindbodygreen.com/articles/best-indoor-houseplants"
               >The 10 Best Houseplants According to Plant Pros</a
             >
           </li>
           <li>
-            <a class="link" target="_blank"
+            <a
+              class="link"
+              target="_blank"
               href="https://www.hgtv.com/outdoors/flowers-and-plants/houseplants/houseplant-care-8-keys-to-success"
               >9 Keys to Success for Caring for Happy Houseplants</a
             >
@@ -225,19 +232,28 @@
         <button>Find Your Perfect Plant</button>
       </div>
       <footer>This page was built by Elizabeth Shackelford</footer>
-      <script>
-          function findYourPerfectPlant() {
-              let email = prompt("We would love to share our special offers with you! What is your email?");
-              let interest = prompt("Interested in receiving our weekly newsletter and learning more about houseplants, plant care, & incorporating plants into your home decor?");
-              interest = interest.toLowerCase().trim();
-              if (interest === "yes" || interest === "interested") {
-                alert("Welcome to the Houseplant family! Our latest newsletter is headed your way!")  
-           }  else {
-                alert("If you change your mind, feel free to return & sign up any time!");
-           }
+    </div>
+    <script>
+      function findYourPerfectPlant() {
+        let email = prompt(
+          "We would love to share our special offers with you! What is your email?"
+        );
+        let interest = prompt(
+          "Interested in receiving our weekly newsletter and learning more about houseplants, plant care, & incorporating plants into your home decor?"
+        );
+        interest = interest.toLowerCase().trim();
+        if (interest === "yes" || interest === "interested") {
+          alert(
+            "Welcome to the Houseplant family! Our latest newsletter is headed your way!"
+          );
+        } else {
+          alert(
+            "If you change your mind, feel free to return & sign up any time!"
+          );
         }
-          let findYourPlantButton = document.querySelector("button");
-          findYourPlantButton.addEventListener("click", findYourPerfectPlant);
-      </script>
+      }
+      let findYourPlantButton = document.querySelector("button");
+      findYourPlantButton.addEventListener("click", findYourPerfectPlant);
+    </script>
   </body>
 </html>
